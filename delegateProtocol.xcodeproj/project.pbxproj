@@ -12,6 +12,7 @@
 		1864D36F1EE852120030E78C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1864D36D1EE852120030E78C /* Main.storyboard */; };
 		1864D3711EE852120030E78C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1864D3701EE852120030E78C /* Assets.xcassets */; };
 		1864D3741EE852120030E78C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1864D3721EE852120030E78C /* LaunchScreen.storyboard */; };
+		1864D37C1EE85C280030E78C /* SelectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864D37B1EE85C280030E78C /* SelectionScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1864D3701EE852120030E78C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1864D3731EE852120030E78C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1864D3751EE852120030E78C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1864D37B1EE85C280030E78C /* SelectionScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				1864D3691EE852120030E78C /* AppDelegate.swift */,
 				1864D36B1EE852120030E78C /* ViewController.swift */,
+				1864D37B1EE85C280030E78C /* SelectionScreen.swift */,
 				1864D36D1EE852120030E78C /* Main.storyboard */,
 				1864D3701EE852120030E78C /* Assets.xcassets */,
 				1864D3721EE852120030E78C /* LaunchScreen.storyboard */,
@@ -96,7 +99,7 @@
 				TargetAttributes = {
 					1864D3651EE852120030E78C = {
 						CreatedOnToolsVersion = 8.3.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -138,6 +141,7 @@
 			files = (
 				1864D36C1EE852120030E78C /* ViewController.swift in Sources */,
 				1864D36A1EE852120030E78C /* AppDelegate.swift in Sources */,
+				1864D37C1EE85C280030E78C /* SelectionScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,10 +264,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = delegateProtocol/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TA.delegateProtocol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -272,10 +278,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = delegateProtocol/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TA.delegateProtocol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -299,6 +307,7 @@
 				1864D37A1EE852120030E78C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
